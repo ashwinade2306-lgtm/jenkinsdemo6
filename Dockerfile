@@ -9,4 +9,4 @@ COPY etl.py .
 # Expose streamlit
 EXPOSE 8501
 # Run streamlit app
-CMD ["Streamlit", "Run", "etl.py"]
+CMD ["streamlit", "run", "etl.py"]
